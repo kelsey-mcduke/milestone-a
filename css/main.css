@@ -1,0 +1,150 @@
+/******BASE STYLES*****/
+body{
+    color: #397FB3;
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*****GRIDS******/
+.full-width{
+  width: 1200px;
+    margin: 0;
+}
+.half-width{
+  width: 600px;
+  float: left;
+}
+.third-width{
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+header{
+    background: url('../img/hero.png');
+    background-size: cover;    
+    height: 800px;
+}
+header h1{
+    margin:0;
+    padding-top: 100px;
+    color: #FF8D6A;
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    line-height: 50%;
+    text-align: center;
+}
+header h2{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 0;
+}
+
+/*****PORTFOLIO*****/
+main{
+    background: #f2f2f2;
+}
+main h2{
+    margin: 0;
+    padding-top: 15px;
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+.work-img img{
+    border: solid #397FB3 1px;
+    margin: 25px 50px;
+}
+.work-info{
+    height: 400px;
+}
+.work-info h3{
+    margin:0;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px; 
+}
+.work-info h4{
+    margin:0;
+    font-size: 24px;
+    font-weight: normal;  
+}
+.work-info p{
+    margin: 0;
+    font-size: 24px;
+    padding-top: 35px;
+}
+
+/******ABOUT******/
+#about{
+    overflow: auto;
+    background-color:#5EBBFF;
+    background-size: cover;
+    margin: 0;
+}
+#about h3{
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    text-align:center;
+}
+.profile-img img{
+    margin: 0;
+    padding-top: 25px;
+    padding-left: 350px;
+    padding-bottom: 50px;
+}
+.profile h4{
+    font-size: 24px;
+}
+.profile p{
+    font-size: 24px;
+    padding-right: 50px;
+}
+
+/******CONTACT******/
+#contact{
+    overflow: auto;
+    background-color: #397FB3;
+    padding-bottom: 25px;
+}
+#contact h3{
+    color: #FF8D6A;
+    font-size: 36px;
+    text-align: center;
+}
+.hire{
+    color: #FF8D6A;
+    font-size: 24px;
+    text-align: center;
+}
+.hire a{
+    color: #FF8D6A;
+    text-decoration: none;
+}
+.follow{
+    color:#FF8D6A;
+    font-size: 24px;
+    text-align: center;
+}
+.follow ul li{
+    list-style: none;
+}
+.meet{
+    color: #FF8D6A;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*****FOOTER******/
+footer{
+    width: 1200px;
+    overflow: auto;
+    background-color: #397FB3;
+}
+footer p{
+    color: #FF8D6A;
+    font-size: 20px;
+    text-align: center;
+}
